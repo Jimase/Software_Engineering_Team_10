@@ -7,7 +7,7 @@ This warehouse is used as a software engineering practice warehouse (a team of t
 <br />
 <p align="center">
   <a href="https://github.com/Jimase/Software_Engineering_Team_10/">
-    <img src="./src/Logo_Pig.png" alt="Logo" >
+    <img src="./src/pharmacy_logo.png" alt="Logo" >
   </a>
   <h3 align="center">"pycharmy"</h3>
   <p align="center">

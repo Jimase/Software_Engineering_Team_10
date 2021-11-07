@@ -7,7 +7,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Jimase/Software_Engineering_Team_10/">
-    <img src="./cards_images/Logo_Pig.png" alt="Logo" >
+    <img src="pharmacy_logo" alt="Logo" >
   </a>
   <h3 align="center">"药店"</h3>
   <p align="center">
