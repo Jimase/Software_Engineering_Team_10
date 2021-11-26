@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="icon" href="https://static.jianshukeji.com/hcode/images/favicon.ico">
+        <style>
+#container {
+    min-width: 300px;
+    max-width: 800px;
+    height: 500px;
+    margin: 1em auto;
+}
+        </style>
+        <script src="https://cdn.highcharts.com.cn/highcharts/highcharts.js"></script>
+        <script src="https://cdn.highcharts.com.cn/highcharts/modules/exporting.js"></script>
+        <script src="https://cdn.highcharts.com.cn/highcharts/modules/variable-pie.js"></script>
+    </head>
+    <body>
+        <div id="container"></div>
+        <script>
+Highcharts.chart('container', {
+    chart: {
+        type: 'variablepie'
+    },
+    title: {
+        text: '双十一药品相关搜索词密度'
+    },
+    subtitle: {
+        text: '扇区长度（圆周方法）表示面积，宽度（纵向）表示人口密度'  
+    },
+    tooltip: {
+        headerFormat: '',
+        pointFormat: '<span style="color:{point.color}">\u25CF</span> <b> {point.name}</b><br/>' +
+        '词频密度： <b>{point.y}</b><br/>' +
+        '反馈量： <b>{point.z}</b><br/>'
+    },
+    series: [{
+        minPointSize: 10,
+        innerSize: '20%',
+        zMin: 0,
+        name: 'countries',
+        data: [{
+            name: '感冒咳嗽',
+            y: 4053700,
+            z: 929
+        }, {
+            name: '减肥',
+            y: 3515000,
+            z: 1187
+        }, {
+            name: '皮肤',
+            y: 312685,
+            z: 1246
+        }, {
+            name: '眼',
+            y: 78867,
+            z: 1375
+        }, {
+            name: '肠胃',
+            y: 301340,
+            z: 2018
+        }, {
+            name: '安神补脑',
+            y: 41277,
+            z: 2145
+        }, {
+            name: '消炎',
+            y: 357022,
+            z: 2356
+        },{
+            name: '男科用药',
+            y: 357022,
+            z: 2356
+        },{
+            name: '肾',
+            y: 357022,
+            z: 2356
+        },{
+            name: '妇科',
+            y: 357022,
+            z: 2352
+        },{
+            name: '膏药',
+            y: 337022,
+            z: 2956
+        },{
+            name: '维矿',
+            y: 357021,
+            z: 2356
+        }]
+    }]
+});
+        </script>
+    </body>
+</html>
+
+
